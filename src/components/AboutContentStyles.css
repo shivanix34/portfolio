@@ -1,0 +1,46 @@
+.about{
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem 1rem;
+    max-width: 650px;
+}
+
+.about .left p{
+    margin: 1.2rem 0;
+}
+
+.about .right{
+    max-width: 800px;
+}
+
+.right .img-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img{
+    max-width: 90%;
+}
+
+@media screen and (max-width: 640px) {
+    .about .left p {
+        font-size: 0.8rem; /* Decrease font size */
+    }
+
+    .about .left {
+        font-size: 0.8rem; /* Decrease font size for other text in .left */
+    }
+
+}
